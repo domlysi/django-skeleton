@@ -4,7 +4,7 @@
 
 ***INSERT GRAPHIC HERE (include hyperlink in image)***
 
-# Repository Title Goes Here
+# Django Skeleton
 
 > Subtitle or Short Description Goes Here
 
