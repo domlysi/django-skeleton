@@ -1,10 +1,15 @@
 from .common import *
 
-WSGI_APPLICATION = 'project_name.wsgi.dev.application'
+DEBUG = True
+
+WSGI_APPLICATION = '%s.wsgi.dev.application'
 
 ALLOWED_HOSTS += ['*']
 
 SECRET_FILE = os.path.join(BASE_DIR, 'dev', 'django_key.txt')
+
+# uncomment the following line to include i18n
+# from .i18n import *
 
 try:
     SECRET_KEY = open(SECRET_FILE).read().strip()
