@@ -2,7 +2,7 @@ from .common import *
 
 DEBUG = True
 
-WSGI_APPLICATION = '%s.wsgi.dev.application'
+WSGI_APPLICATION = '%s.wsgi.dev.application' % SITE_NAME
 
 ALLOWED_HOSTS += ['*']
 
