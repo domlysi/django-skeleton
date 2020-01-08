@@ -47,7 +47,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'DjangoSkeleton.urls'
+ROOT_URLCONF = 'project_name.urls'
 
 TEMPLATES = [
     {
@@ -65,8 +65,6 @@ TEMPLATES = [
         },
     },
 ]
-
-WSGI_APPLICATION = 'DjangoSkeleton.wsgi.application'
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators

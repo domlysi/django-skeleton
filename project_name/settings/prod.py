@@ -1,5 +1,7 @@
 from .common import *
 
+WSGI_APPLICATION = 'project_name.wsgi.dev.application'
+
 ALLOWED_HOSTS += []
 
 DEBUG = False
