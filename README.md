@@ -5,6 +5,8 @@
 ***INSERT GRAPHIC HERE (include hyperlink in image)***
 
 # Django Skeleton
+**Quickstart**
+`django-admin startproject --template=https://github.com/domlysi/django-skeleton/archive/master.zip [projectname]`
 
 > Subtitle or Short Description Goes Here
 
