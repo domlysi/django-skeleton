@@ -5,7 +5,7 @@
 # This also works with Travis CI
 #
 # PACKAGE = Source code directory or leave empty
-PACKAGE = "mediaplayer"
+PACKAGE = "{{ project_name }}"
 # TESTDIR = Test directory or '.' for current directory
 TESTDIR = '.'
 PROJECT :=
