@@ -33,7 +33,7 @@ setup(
     version='0.1.0',
     author='Dominik Lysiak',
     author_email='dominik.lysiak@freenet.de',
-    packages=['project_modul'],
+    packages=['{{ project_name }}'],
     url='https://github.com/domlysi/{{ project_name }}',
     license='MIT',
     description='A simple but effective description.',

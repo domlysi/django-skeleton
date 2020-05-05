@@ -6,7 +6,7 @@
 
 # Django Skeleton
 **Quickstart**
-`django-admin startproject --template=https://github.com/domlysi/django-skeleton/archive/master.zip -e py,ini,yml -n Makefile [projectname]`
+`django-admin startproject --template=https://github.com/domlysi/django-skeleton/archive/master.zip -e py,ini,yml,in -n Makefile [projectname]`
 
 > Subtitle or Short Description Goes Here
 
